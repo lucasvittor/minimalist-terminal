@@ -1,0 +1,111 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "centerOnLaunch": true,
+    "copyOnSelect": false,
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "initialCols": 80,
+    "initialRows": 25,
+    "keybindings": [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        }
+    ],
+    "launchMode": "default",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Color Scheme 14",
+            "elevate": false,
+            "font": {
+                "face": "Consolas",
+                "size": 10
+            },
+            "opacity": 85,
+            "padding": "0",
+            "scrollbarState": "hidden",
+            "useAcrylic": false
+        },
+        "list": [
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "font": {
+                    "face": "Consolas",
+                    "size": 10
+                },
+                "intenseTextStyle": "all",
+                "opacity": 85,
+                "padding": "0",
+                "useAcrylic": false,
+                "elevate": false,
+                "tabBackground": "#13A10E",  // Fundo verde para guias
+                "tabForeground": "#FFFFFF"   // Cor branca para o texto das guias
+            },
+            {
+                "guid": "{c8a580c3-a9ac-4323-afae-3c8c0a38230b}",
+                "name": "Windows PowerShell",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "startingDirectory": "%USERPROFILE%",
+                "elevate": false,
+                "font": {
+                    "face": "Consolas",
+                    "size": 10
+                },
+                "opacity": 85,
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "cursorShape": "bar",
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "snapOnInput": true,
+                "useAcrylic": false,
+                "padding": "0",
+                "tabBackground": "#13A10E",  // Fundo verde para guias
+                "tabForeground": "#FFFFFF"   // Cor branca para o texto das guias
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Color Scheme 14",
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#13A10E", 
+            "green": "#13A10E",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ],
+    "tabWidthMode": "equal",
+    "themes": []
+}
