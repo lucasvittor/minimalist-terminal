@@ -5,85 +5,93 @@
     "centerOnLaunch": true,
     "copyOnSelect": false,
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-    "initialCols": 80,
-    "initialRows": 25,
-    "keybindings": [
+    "initialCols": 90,
+    "initialRows": 15,
+    "keybindings": 
+    [
         {
             "id": "Terminal.CopyToClipboard",
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.PasteFromClipboard",
-            "keys": "ctrl+v"
-        },
-        {
             "id": "Terminal.FindText",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
         }
     ],
     "launchMode": "default",
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "colorScheme": "Color Scheme 14",
-            "elevate": false,
-            "font": {
+            "elevate": true,
+            "font": 
+            {
                 "face": "Consolas",
-                "size": 10
+                "size": 14
             },
-            "opacity": 85,
-            "padding": "0",
+            "opacity": 75,
+            "padding": "14",
             "scrollbarState": "hidden",
             "useAcrylic": false
         },
-        "list": [
+        "list": 
+        [
             {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "Command Prompt",
-                "font": {
+                "elevate": true,
+                "font": 
+                {
                     "face": "Consolas",
-                    "size": 10
+                    "size": 14
                 },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "intenseTextStyle": "all",
-                "opacity": 85,
-                "padding": "0",
-                "useAcrylic": false,
-                "elevate": false,
-                "tabBackground": "#13A10E",  // Fundo verde para guias
-                "tabForeground": "#FFFFFF"   // Cor branca para o texto das guias
+                "name": "Command Prompt",
+                "opacity": 75,
+                "padding": "14",
+                "useAcrylic": false
             },
             {
-                "guid": "{c8a580c3-a9ac-4323-afae-3c8c0a38230b}",
-                "name": "Windows PowerShell",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "startingDirectory": "%USERPROFILE%",
-                "elevate": false,
-                "font": {
-                    "face": "Consolas",
-                    "size": 10
-                },
-                "opacity": 85,
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "automatic",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "cursorShape": "bar",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 10
+                },
+                "guid": "{c8a580c3-a9ac-4323-afae-3c8c0a38230b}",
                 "historySize": 9001,
-                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell",
+                "opacity": 75,
+                "padding": "14",
                 "snapOnInput": true,
-                "useAcrylic": false,
-                "padding": "0",
-                "tabBackground": "#13A10E",  // Fundo verde para guias
-                "tabForeground": "#FFFFFF"   // Cor branca para o texto das guias
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
-            "name": "Color Scheme 14",
             "background": "#000000",
             "black": "#0C0C0C",
             "blue": "#0037DA",
@@ -97,8 +105,9 @@
             "brightYellow": "#F9F1A5",
             "cursorColor": "#FFFFFF",
             "cyan": "#3A96DD",
-            "foreground": "#13A10E", 
+            "foreground": "#13A10E",
             "green": "#13A10E",
+            "name": "Color Scheme 14",
             "purple": "#881798",
             "red": "#C50F1F",
             "selectionBackground": "#FFFFFF",
